@@ -2,21 +2,27 @@
 
 .jumbotron {
   /* 30vh - 30% of the view port height */
-  padding: 15rem 3%;
+  padding: 0 0rem 5rem 0rem;
   height: 90vh;
   background-color: #cccccc;
   /* image by NeuPaddy */
   background-image: url("../images/Background moon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position:  center center ;
   opacity:.95 ;
+  margin-bottom: 0;
 
 }
 
 .bg-nav {
 
-  background-image: url("../images/Nav background.jpg");
+  background-image: url("../images/bg-nav.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  background-position: center 99%;
+  height: 100px;
+}
 
 }
 
@@ -25,14 +31,35 @@ color: white;
 
   }
 
-
+.carousel {
+  width: 100%;
+}
 
 h1 {
   margin: 0.5rem 0 2rem 0;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+h2, h4, h5{
+  color: white;
+}
+
+.benefits, .testimonials, .newsletter{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d0a23+0,2f2d54+100 */
+  background: #0d0a23; /* Old browsers */
+  background: -moz-linear-gradient(left,  #0d0a23 0%, #2f2d54 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #0d0a23 0%,#2f2d54 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #0d0a23 0%,#2f2d54 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0a23', endColorstr='#2f2d54',GradientType=1 ); /* IE6-9 */
+
 }
 
 .row {
-  margin: 5rem 0rem;
+  padding: 5rem 0rem;
 }
 
 .btn-purple {
@@ -43,7 +70,7 @@ h1 {
 
 .btn-cta{
   font-family: 'Cabin', sans-serif;
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 .btn-newsletter-button {
@@ -175,6 +202,6 @@ padding: 5rem 0;
   font-size: 4rem;
 }
 .btn-cta {
-  font-size: 1rem;
+  font-size: 2.5rem;
 }
 }
